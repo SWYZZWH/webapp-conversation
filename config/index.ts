@@ -3,11 +3,11 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
+  title: '凝矩科技医疗大模型助手',
+  description: '专注智能医疗',
+  copyright: '上海凝矩科技有限公司',
   privacy_policy: '',
-  default_language: 'en',
+  default_language: 'zh-Hans',
 }
 
 export const isShowPrompt = false
