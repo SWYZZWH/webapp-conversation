@@ -28,7 +28,7 @@ const AppIcon: FC<AppIconProps> = ({
         background,
       }}
     >
-      🤖
+      <img src="/logo.svg" alt="AI Doctor Logo" style={{ width: '200%', height: '200%', objectFit: 'contain' }} />
     </span>
   )
 }
